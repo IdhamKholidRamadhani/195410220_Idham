@@ -1,0 +1,182 @@
+/*Wadah Laman Web*/
+body{
+	margin: 0;
+}
+.wrapper{
+ 	width: 900px;
+ 	padding: 10px;
+ 	border: 1px solid #999;
+ 	margin: 10px auto;
+}
+/*web sisi atas*/
+header{
+ 	height: 70px;
+ 	background-color: #999;
+}
+/*navigasi*/
+nav{
+ 	overflow: hidden;
+ 	height: 35px;
+ 	background-color: #666;
+}
+nav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 9px 20px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: #ddd;
+	color: black;
+}
+/*web sisi kiri*/
+/*Halaman web sisi kiri dan gambar artikel*/
+section.courses{
+	float: left;
+	width: 659px;
+	border-right: 1px solid #eeeeee;
+}
+article{
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+/*Untuk gambar artikel*/
+figure{
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eee;
+}
+/*Halaman web sisi kanan*/
+aside{
+	width: 210px;
+	float: left;
+	padding: 0px 0px 0px 20px; /*A,Ki,B,Ka*/
+}
+aside section a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+aside section a:hover{
+	color: #985d6a;
+	background-color: #efefef;
+}
+aside h2{
+	padding: 30px 0px 10px 0px; /*A,Ki,B,Ka*/
+	color: #079a9a;
+}
+/*Pendukung lainnya (Atribut)*/
+/*Untuk tag link*/
+a{
+	color: #079a9a;
+	text-decoration: none;
+}
+/*Untuk heading*/
+h2,h3{
+	font-weight: normal;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 37px;
+	margin: 3px 0px 5px 0px;
+	padding-top: 16px;
+}
+h2{
+	margin: 20px 0px 5px 0px; /*A,Ki,B,Ka*/
+	padding: 0px;
+	color: #079a9a;
+}
+h3{
+	margin: 0px 0px 10px 0px; /*A,Ki,B,Ka*/
+	color: #079a9a;
+}
+/*Untuk tag paragraf*/
+p{
+	padding-right: 10px;
+	line-height: 20px;
+}
+li{
+	line-height: 20px;
+}
+/*all button*/
+.button{
+	display: inline-block;
+	padding: 10px 25px;
+	margin: 20px 10px;
+	position: relative;
+	color: #3b3e3f;
+}
+.button:hover{
+	color: black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+/*button1*/
+#button-1{
+	background-color: #7aaee1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#button-1:before{
+	content: "";
+	position: absolute;
+	top: calc(50% - 15px);
+	left: 0;
+	border-right: 15px solid #7aaee1;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#button-1:hover{
+	-webkit-transform: translateX(15px);
+	-ms-transform: translateX(15px);
+	-o-transform: translateX(15px);
+	transform: translateX(15px);
+}
+#button-1:hover:before{
+	left: -16px;
+}
+/*button2*/
+#button-2{
+	background-color: #7aaee1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#button-2:after{
+	content: "";
+	position: absolute;
+	top: calc(50%-15px);
+	right: 0;
+	border-right: 15px solid #7aaee1;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#button-2:hover{
+	-webkit-transform: translateX(-15px);
+	-ms-transform: translateX(-15px);
+	-o-transform: translateX(-15px);
+	transform: translateX(-15px);
+}
+#button-2:hover:after{
+	left: -16px;
+}
+/*web sisi bawah*/
+footer{
+ 	clear: both;
+ 	height: 100px;
+ 	background-color: #ccc;
+}
